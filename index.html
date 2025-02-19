@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASPER - Assistant Personnel en Ligne</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="text-xl font-bold text-blue-600">A S P E R</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-blue-600">Accueil</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600">Fonctionnalités</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600">Tarifs</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600">Contact</a>
+                </div>
+                <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">
+                    Essayer gratuitement
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-gradient-to-r from-blue-500 to-blue-700 text-white py-20">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                        A S P E R
+                    </h1>
+                    <p class="text-xl mb-4">
+                        Assistant Personnel Intelligent
+                    </p>
+                    <p class="text-xl mb-8">
+                        Simplifiez votre quotidien grâce à notre assistant en ligne qui s'adapte à vos besoins.
+                    </p>
+                    <button class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100">
+                        Démarrer maintenant
+                    </button>
+                </div>
+                <div class="md:w-1/2">
+                    <svg viewBox="0 0 1000 600" class="w-full h-auto rounded-lg shadow-xl">
+                        <!-- Fond -->
+                        <rect width="1000" height="600" fill="#f8f9fa"/>
+                        
+                        <!-- Menu latéral -->
+                        <rect x="0" y="0" width="200" height="600" fill="#1e2a3a"/>
+                        
+                        <!-- Contenu principal -->
+                        <rect x="200" y="0" width="800" height="600" fill="#ffffff"/>
+                        
+                        <!-- Logo et titre -->
+                        <text x="20" y="30" fill="#ffffff" font-size="20" font-weight="bold">ASPER</text>
+                        <text x="20" y="50" fill="#6b7280" font-size="12">VOTRE ASSISTANT PERSONNEL</text>
+                        
+                        <!-- Menu items -->
+                        <text x="20" y="100" fill="#ffffff" font-size="14">Tableau de bord</text>
+                        <text x="20" y="130" fill="#ffffff" font-size="14">Calendrier</text>
+                        <text x="20" y="160" fill="#ffffff" font-size="14">Famille</text>
+                        <text x="20" y="190" fill="#ffffff" font-size="14">Patrimoine</text>
+                        
+                        <!-- Zone de contenu -->
+                        <text x="220" y="40" fill="#000000" font-size="18" font-weight="bold">Les 7 prochains jours</text>
+                        
+                        <!-- Calendrier -->
+                        <rect x="220" y="60" width="750" height="100" fill="#f3f4f6" rx="4"/>
+                        
+                        <!-- Éléments épinglés -->
+                        <text x="220" y="200" fill="#000000" font-size="16" font-weight="bold">Éléments épinglés</text>
+                        <rect x="220" y="220" width="750" height="200" fill="#f3f4f6" rx="4"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Fonctionnalités principales</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="p-6 bg-gray-50 rounded-lg">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Rapide et Efficace</h3>
+                    <p class="text-gray-600">Gérez tous vos documents et tâches en un seul endroit.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="p-6 bg-gray-50 rounded-lg">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Organisation intelligente</h3>
+                    <p class="text-gray-600">Classez et retrouvez facilement vos informations importantes.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="p-6 bg-gray-50 rounded-lg">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Sécurisé</h3>
+                    <p class="text-gray-600">Vos données sont protégées et confidentielles.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="bg-gray-100 py-16">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <h2 class="text-3xl font-bold mb-6">Prêt à commencer ?</h2>
+            <p class="text-xl text-gray-600 mb-8">
+                Rejoignez les utilisateurs qui font confiance à ASPER pour gérer leur vie personnelle.
+            </p>
+            <button class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700">
+                Créer un compte gratuit
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">A S P E R</h4>
+                    <p class="text-gray-400">Votre assistant personnel intelligent disponible 24/7.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Liens rapides</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white">Accueil</a></li>
+                        <li><a href="#" class="hover:text-white">Fonctionnalités</a></li>
+                        <li><a href="#" class="hover:text-white">Tarifs</a></li>
+                        <li><a href="#" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Aide</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white">FAQ</a></li>
+                        <li><a href="#" class="hover:text-white">Support</a></li>
+                        <li><a href="#" class="hover:text-white">Documentation</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>contact@asper.fr</li>
+                        <li>01 23 45 67 89</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
